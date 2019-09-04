@@ -2,12 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import style01 from './MovieCard.module.css';
 
-const MovieCard = ({ movie, alt, id, posterUrl, title, overview }) => (
-  <div key={id} className={style01.movieCard} >
-    <img className={style01.img} alt={alt}>{posterUrl}</img>
+const MovieCard = ({ movie, alt }) => (
+  <div key={movie.id} className={style01.movieCard} >
+    <img className={style01.img} alt={alt}>{movie.posterUrl}</img>
     <div className={style01.content}>
-      <h2 className={style01.title}>{title}</h2>
-      <p className={style01.descr}>{overview}</p>
+      <h2 className={style01.title}>{movie.title}</h2>
+      <p className={style01.descr}>{movie.overview}</p>
     </div>
   </div>
 )
