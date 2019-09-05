@@ -1,5 +1,4 @@
 import React from 'react';
-
 import m from './movies';
 import MovieGrid from './MovieGrid/MovieGrid';
 
