@@ -1,5 +1,4 @@
 .contentUl {
-  background-color: blueviolet;
   display: flex;
   flex-flow: row wrap;
 }

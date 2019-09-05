@@ -5,11 +5,11 @@ import style01 from './MovieCard.module.css';
 const MovieCard = ({ m }) => {
   const { id, posterUrl, title, overview } = m;
   return (
-    <li key={id} className={style01.movieCard} >
+    <div key={id} className={style01.movieCard} >
       <img className={style01.img} alt="imager" src={posterUrl} />
       <h2 className={style01.title}>{title}</h2>
       <p className={style01.overview}>{overview}</p>
-    </li>
+    </div>
   )
 }
 
