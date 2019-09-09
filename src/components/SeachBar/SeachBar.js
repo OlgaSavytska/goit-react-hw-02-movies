@@ -15,8 +15,8 @@ const SeachBar = ({ value, onChange }) => {
 };
 
 SeachBar.propTypes = {
-  value: PropTypes.string,
-  onChange: PropTypes.func,
+  value: PropTypes.string.isRequired,
+  onChange: PropTypes.func.isRequired,
 };
 
 export default SeachBar;

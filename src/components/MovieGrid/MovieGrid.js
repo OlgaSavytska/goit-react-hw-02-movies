@@ -1,17 +1,31 @@
 import React from 'react';
-import styled02 from './MovieGrid.module.css'
-
+import PropTypes from 'prop-types';
 import MovieCard from '../MovieCard/MovieCard';
+import styles from './MovieGrid.module.css';
 
-const MovieGrid = ({ m }) => {
-  return (
-    <ul className={styled02.contentUl}>
-      {m.map(m => (
-        <MovieCard key={m.id} m={m} />
+const MovieGrid = ({ items }) =>
+  items.length > 0 && (
+    <ul className={styles.movie_grid}>
+      {items.map(item => (
+        <li key={item.id}>
+          <MovieCard
+            posterUrl={item.posterUrl}
+            title={item.title}
+            overview={item.overview}
+          />
+        </li>
       ))}
     </ul>
-  )
-}
+  );
 
+MovieGrid.propTypes = {
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      posterUrl: PropTypes.string.isRequired,
+      title: PropTypes.string.isRequired,
+      overview: PropTypes.string.isRequired,
+    }),
+  ).isRequired,
+};
 
 export default MovieGrid;
