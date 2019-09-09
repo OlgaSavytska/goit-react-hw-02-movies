@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/OlgaSavytska/goit-react-hw-02-movies-new/static/css/main.141a765b.chunk.css",
-    "main.js": "/OlgaSavytska/goit-react-hw-02-movies-new/static/js/main.cca1028f.chunk.js",
-    "main.js.map": "/OlgaSavytska/goit-react-hw-02-movies-new/static/js/main.cca1028f.chunk.js.map",
-    "runtime~main.js": "/OlgaSavytska/goit-react-hw-02-movies-new/static/js/runtime~main.f24e1812.js",
-    "runtime~main.js.map": "/OlgaSavytska/goit-react-hw-02-movies-new/static/js/runtime~main.f24e1812.js.map",
-    "static/js/2.07ba98d0.chunk.js": "/OlgaSavytska/goit-react-hw-02-movies-new/static/js/2.07ba98d0.chunk.js",
-    "static/js/2.07ba98d0.chunk.js.map": "/OlgaSavytska/goit-react-hw-02-movies-new/static/js/2.07ba98d0.chunk.js.map",
-    "index.html": "/OlgaSavytska/goit-react-hw-02-movies-new/index.html",
-    "precache-manifest.fb2d7e3fbbba24cf9262cce16fd244c6.js": "/OlgaSavytska/goit-react-hw-02-movies-new/precache-manifest.fb2d7e3fbbba24cf9262cce16fd244c6.js",
-    "service-worker.js": "/OlgaSavytska/goit-react-hw-02-movies-new/service-worker.js",
-    "static/css/main.141a765b.chunk.css.map": "/OlgaSavytska/goit-react-hw-02-movies-new/static/css/main.141a765b.chunk.css.map"
+    "main.css": "/goit-react-hw-02-movies-new/static/css/main.141a765b.chunk.css",
+    "main.js": "/goit-react-hw-02-movies-new/static/js/main.cca1028f.chunk.js",
+    "main.js.map": "/goit-react-hw-02-movies-new/static/js/main.cca1028f.chunk.js.map",
+    "runtime~main.js": "/goit-react-hw-02-movies-new/static/js/runtime~main.6c37ba52.js",
+    "runtime~main.js.map": "/goit-react-hw-02-movies-new/static/js/runtime~main.6c37ba52.js.map",
+    "static/js/2.07ba98d0.chunk.js": "/goit-react-hw-02-movies-new/static/js/2.07ba98d0.chunk.js",
+    "static/js/2.07ba98d0.chunk.js.map": "/goit-react-hw-02-movies-new/static/js/2.07ba98d0.chunk.js.map",
+    "index.html": "/goit-react-hw-02-movies-new/index.html",
+    "precache-manifest.e156a1e5ea0027e91ffa3bf0773ac43d.js": "/goit-react-hw-02-movies-new/precache-manifest.e156a1e5ea0027e91ffa3bf0773ac43d.js",
+    "service-worker.js": "/goit-react-hw-02-movies-new/service-worker.js",
+    "static/css/main.141a765b.chunk.css.map": "/goit-react-hw-02-movies-new/static/css/main.141a765b.chunk.css.map"
   }
 }
